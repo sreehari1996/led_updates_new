@@ -345,3 +345,67 @@
     pointer-events: none;
     transition: opacity 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+/* ==========================================================================
+   Why Choose SANS GLOWMETRIC - Bento Layout Styles
+   ========================================================================== */
+.why-choose-grid-top {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+@media (min-width: 768px) {
+    .why-choose-grid-top {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.why-choose-grid-bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+@media (min-width: 768px) {
+    .why-choose-grid-bottom {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.why-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 1rem;
+    padding: 1.75rem 2rem;
+    transition: all 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.why-card:hover {
+    border-color: #168BEB;
+    box-shadow: 0 12px 28px -8px rgba(7, 21, 33, 0.08);
+    transform: translateY(-3px);
+}
+
+.why-icon-box {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    max-width: 44px;
+    border-radius: 10px;
+    background: #f0f7ff;
+    border: 1px solid #dbeafe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #168BEB;
+    transition: all 0.25s ease;
+}
+.why-card:hover .why-icon-box {
+    background: #168BEB;
+    color: #ffffff;
+    border-color: #168BEB;
+}
+
+
