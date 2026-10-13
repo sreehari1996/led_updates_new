@@ -2347,12 +2347,14 @@ body {
   font-style: italic;
 }
 
-.leading-\[1\.05\] {
-  line-height: 1.05;
+.leading-\[1\.05\],
+.leading-\[1\.2\] {
+  line-height: 1.2;
 }
 
-.leading-\[1\.1\] {
-  line-height: 1.1;
+.leading-\[1\.1\],
+.leading-\[1\.22\] {
+  line-height: 1.22;
 }
 
 .leading-loose {
