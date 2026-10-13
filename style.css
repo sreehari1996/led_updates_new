@@ -154,7 +154,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Inter, sans-serif;
+  font-family: 'Manrope', sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -2222,8 +2222,9 @@ body {
   text-align: right;
 }
 
-.font-inter {
-  font-family: Inter, sans-serif;
+.font-inter,
+.font-manrope {
+  font-family: 'Manrope', sans-serif;
 }
 
 .font-outfit {
@@ -4237,4 +4238,8 @@ body {
 
 .screen-search-input {
     padding-left: 38px !important;
+}
+
+html, body {
+    font-family: 'Manrope', sans-serif;
 }

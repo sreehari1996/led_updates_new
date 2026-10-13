@@ -25,6 +25,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    font-family: 'Manrope', sans-serif;
   }
 
   body {
@@ -32,6 +33,7 @@
     overflow-x: hidden;
     color: #17212B;
     background-color: #FFFFFF;
+    font-family: 'Manrope', sans-serif;
   }
 }
 
@@ -100,5 +102,10 @@
 
 .screen-search-input {
   padding-left: 38px !important;
+}
+
+.font-manrope,
+.font-inter {
+  font-family: 'Manrope', sans-serif !important;
 }
 
