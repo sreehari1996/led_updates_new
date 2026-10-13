@@ -35,7 +35,6 @@
 
             <!-- Center Links (Desktop lg: and above) -->
             <div class="hidden lg:flex gap-8 text-[13px] font-medium text-gray-500">
-                <a href="index.html" class="text-[#071521] border-b-2 border-[#168BEB] pb-1">Home</a>
                 <a href="about.html" class="hover:text-[#071521] transition-colors pb-1">About</a>
                 <a href="advertise.html" class="hover:text-[#071521] transition-colors pb-1">Advertise</a>
                 <a href="network.html" class="hover:text-[#071521] transition-colors pb-1">Our Screens</a>
@@ -82,7 +81,9 @@
             class="absolute right-0 top-0 bottom-0 w-[85%] max-w-[360px] bg-white shadow-2xl transition-transform duration-300 flex flex-col">
             <!-- Header -->
             <div class="p-5 border-b border-gray-100 flex justify-between items-center bg-gray-50/60">
-                <img src="./images/sanspng-bluetheme.png" alt="Logo" class="h-6 object-contain mobile-menu-logo">
+                <a href="index.html" class="flex items-center">
+                    <img src="./images/sanspng-bluetheme.png" alt="Logo" class="h-6 object-contain mobile-menu-logo">
+                </a>
                 <button id="mobile-menu-close"
                     class="p-2 rounded-full text-gray-500 hover:text-[#071521] hover:bg-gray-200/50 transition-colors"
                     aria-label="Close Navigation Menu">
@@ -102,11 +103,6 @@
             </div>
             <!-- Nav Links -->
             <div class="flex-grow overflow-y-auto px-5 py-4 flex flex-col gap-2 text-[15px] font-medium text-[#071521]">
-                <a href="index.html"
-                    class="flex items-center justify-between font-bold text-white bg-[#168BEB]/10 px-3 py-2.5 rounded-lg border-l-4 border-[#168BEB]">
-                    <span>Home</span>
-                    <span class="text-[10px] uppercase font-bold text-[#168BEB] tracking-wider">Current</span>
-                </a>
                 <a href="about.html"
                     class="px-3 py-2 rounded-lg hover:bg-gray-50 hover:text-[#168BEB] transition-colors">About</a>
                 <a href="advertise.html"
