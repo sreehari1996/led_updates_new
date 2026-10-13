@@ -43,3 +43,10 @@
         touch-action: pan-x !important;
     }
 }
+
+/* Project Card Category Badges Vertical Padding */
+.portfolio-item .bg-\[\#168BEB\] {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
