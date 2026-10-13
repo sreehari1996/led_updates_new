@@ -4234,3 +4234,7 @@ body {
 .screen-item {
     gap: 16px !important;
 }
+
+.screen-search-input {
+    padding-left: 38px !important;
+}
