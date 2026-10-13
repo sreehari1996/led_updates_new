@@ -408,4 +408,29 @@
     border-color: #168BEB;
 }
 
+.why-card-footer {
+    margin-top: 1.5rem !important;
+    padding-top: 1.25rem !important;
+    border-top: 1px solid #edf2f7 !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    gap: 0.625rem !important;
+}
+
+.why-pill-badge {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.45rem !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    color: #475569 !important;
+    background-color: #f8fafc !important;
+    border: 1px solid #e2e8f0 !important;
+    padding: 0.375rem 0.8rem !important;
+    border-radius: 0.375rem !important;
+    line-height: 1.25 !important;
+}
+
+
 
